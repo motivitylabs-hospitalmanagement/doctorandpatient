@@ -1,0 +1,128 @@
+
+@charset "UTF-8";
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 99vw;
+    height: 100 vh;
+}
+
+
+header{
+    background: linear-gradient(145deg,#E100FF 0%,#7D00FF 80%);
+    height: 100vh;
+    width: 100%; 
+    
+}
+nav{
+    background:linear-gradient(145deg,#E100FF 0%,#7D00FF 80%);
+}
+
+nav ul{
+    padding: 0px;
+    text-align: center;
+}
+nav li{
+    display: inline-block;
+    list-style: none;
+    border-bottom: 0px solid #444;
+    margin:  15px 20px;
+    font-size: 30px;
+}
+li:link{
+    color: red;
+}
+li:visited{
+    color: cornflowerblue;
+}
+
+header nav a:last-child:hover{
+    background: whitesmoke;
+    color: #333;
+}
+header nav a:hover{
+    color: black;
+} */
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #ff8040;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #E100FF;
+  }
+
+  img{
+    width: 100vw;
+    height: 110vh;
+  }
+
+  .banner{
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    border-radius: 0px 0px 0px 0px;
+    background-image: url(https://images.pexels.com/photos/40568/medical-appointment-doctor-healthcare-40568.jpeg);
+    background-repeat: no-repeat; 
+  }
+
+  .form{ 
+    margin-top: 5rem;
+    margin-left: 2rem;
+    margin-right: 1rem;
+    margin-bottom: 5rem; 
+    width:50vw;
+    height: 550px;
+    float: left; 
+    background-image: linear-gradient(145deg,#E100FF 0%,#7D00FF 80%);
+    padding: 50px;
+    box-sizing: border-box;
+    border-radius: 40px 40px 40px 40px;
+    border-bottom: 3px solid navajowhite;
+
+
+  }
+
+  .labelspace{
+    padding-right: 10px;
+  }
+
+  .form h3{
+    font-size: 20px;
+    color: #7D00FF;
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 3px solid black;
+    margin: 5px; 
+  }
+
+  input[type=text],input[type=password],input[type=email]{
+    width: 100%;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 2px solid black;
+    background-color: white;
+    padding: 10px 10px 10px 40px;
+  }
